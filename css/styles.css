@@ -1,0 +1,77 @@
+#heading{
+  margin-bottom: 0.25em;
+  padding: 0;
+  font-family: "Linux Libertine", "Georgia", "Times", serif;
+  font-size: 25pt;
+  line-height: 28pt;
+}
+
+#sitesub{
+  font-size: 0.875em;
+  font-size: calc(1em * 0.875);
+  line-height: 1.6;
+}
+
+.wk-body {
+  font-family: sans-serif;
+  font-size: 90%;
+}
+
+#parentblock{
+  position: absolute;
+  /*background-color:#888;*/
+  width: 70%;
+  height: 1000px;
+}
+
+#contents{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #999;
+  background-color: rgb(248, 249, 250);
+}
+
+.blue{
+  color: rgb(6,69,173);
+}
+
+#contents h2{
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#contents ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#contents ul ul{
+  padding-left: 2em;
+}
+
+#infopanel{
+  border: 1px solid #999;
+  background-color: rgb(248, 249, 250);
+  width:28%;
+  position: relative;
+  float: right;
+  text-align: center;
+}
+
+#infopanel img{
+  padding-top: 0.2em;
+  position:relative;
+}
+
+#bar{
+  position: static;
+  margin-top: 0.5em;
+  margin-left: 10%;
+  width: 15em;
+  height: 1.2em;
+  background-color: #FF8000;
+  border: 1px solid black;
+}
